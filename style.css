@@ -1,0 +1,113 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .hero-banner {
+            background-image: url('https://st2.depositphotos.com/3591429/10781/i/950/depositphotos_107819718-stock-photo-person-working-with-computer.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px; 
+            text-align: center;
+            padding: 100px 0;
+            position: relative; /* Permet de positionner les éléments enfants par rapport à la bannière */
+        }
+
+        .hero-text {
+            background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond avec transparence pour l'encadrement du texte */
+            color: #fff; /* Couleur du texte */
+            font-family: roboto, sans-serif; /* Police du texte */
+            padding: 5px; /* Espace intérieur pour le texte */
+            border-radius: 5px; /* Coins arrondis pour l'encadrement */
+            position: absolute; /* Position absolue par rapport à la bannière */
+            top: 50%; /* Position verticale au centre */
+            left: 50%; /* Position horizontale au centre */
+            transform: translate(-50%, -50%); /* Pour centrer le texte */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+        }
+
+        .product {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+        }
+
+        .product button {
+            background-color: #0074D9;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cart {
+            text-align: center;
+        }
+
+        .checkout-button {
+            background-color: #0074D9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden; 
+            background-image: url('https://previews.123rf.com/images/yupiramos/yupiramos1705/yupiramos170510342/77742788-jeune-homme-t%C3%AAte-avatar-vecteur-illustration-conception.jpg'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #fff;
+            margin: 20px auto;
+        }
+
+        .white-card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
